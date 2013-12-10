@@ -1,0 +1,123 @@
+body{
+	background-color:black;
+}
+#mainContainer{
+	width:1024px;
+	height:100%;
+	background-color:black;
+	font-family:Helvetica;
+	margin:auto;
+}
+
+#mainContainer #searchBar{
+	margin-bottom:20px;
+	margin-top:20px;
+	float:right;
+}
+
+#mainContainer #navigation{
+	width:1020px;
+	height:auto;
+	margin-bottom:120px;
+}
+#mainContainer #navigation a{
+	color:#ccc;
+	text-decoration:none;
+	font-size:14px;
+}
+
+
+#mainContainer #navigation ul{
+	padding-left: 8px;
+}
+#mainContainer #navigation ul li{
+	display:block;
+	list-style:none;
+	float:left;
+	width:150px;
+	height:23px;
+	border:solid 1px #fff;
+	padding-top:7px;
+	padding-left:8px;
+	padding-right:8px;
+	text-align:center;
+	
+}
+#mainContainer #navigation  ul li ul{
+	margin-top:7px;
+	position:absolute;
+	z-index:10000;
+	padding-left:0px;
+	margin-left:-9px;
+	width:150px;
+}
+
+#mainContainer #navigation  ul li ul li{
+	display:block;
+	list-style:none;
+	float:left;
+	width:100%;
+	height:23px;
+	border:solid 1px #fff;
+	padding-top:7px;
+	padding-right:8px;
+	text-align:center;
+	background-color:red;
+}
+#mainContainer #navigation #site_name ul li ul{
+	margin-top:10px;
+	position:absolute;
+	z-index:10000;
+	padding-left:0px;
+	margin-left:-9px;
+}
+#mainContainer #navigation #allSites ul li ul li{
+	display:block;
+	list-style:none;
+	float:left;
+	width:30px;
+	height:23px;
+	border:solid 1px #fff;
+	padding-top:7px;
+	padding-right:8px;
+	text-align:center;
+	background-color:red;
+}
+
+.clear{
+	clear:both;
+}
+.child {
+    display: none;
+}
+
+#mainContainer #girlContainer{
+	width:600px;
+	height:auto;
+	/*border:solid 1px #fff;*/
+	float:left;
+	margin-left: 30px;
+
+}
+#mainContainer #girlDescription{
+	width:340px;
+	height:auto;
+	/*border:solid 1px #fff;*/
+	margin-left:16px;
+	float:left;
+	color:#ccc;
+}
+
+#mainContainer #girlDescription h1{
+	font-size:30px;
+	margin-bottom:20px;
+	
+}
+
+#mainContainer #girlDescription p{
+	font-size:14px;
+	margin-bottom:10px;
+	border-bottom:dotted 1px #ccc;
+	
+}
+

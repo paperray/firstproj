@@ -1,0 +1,13 @@
+RewriteEngine On
+RewriteBase /programmer122013/rayjohn/public
+
+
+RewriteRule ^([a-z0-9\-_]+)?$ index.php?class=$1
+
+RewriteRule ^([a-z0-9\-_]+)/([a-z0-9\-_]+)?$ index.php?class=$1&method=$2
+
+RewriteRule ^index/girls/([a-z0-9\-_]+)/([a-z0-9\-_]+)?$ index.php?class=index&method=girls&id=$1&name=$2
+
+RewriteRule ^ajax/([a-z0-9\-_]+)/([a-z0-9\-_]+)?$ ajax/index.php?class=$1&method=$2
+
+RewriteRule ^ajax/([a-z0-9\-_]+)/([a-z0-9\-_]+)/([a-z0-9\-_]+)?$ ajax/index.php?class=$1&method=$2&letters=$3
